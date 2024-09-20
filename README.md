@@ -27,7 +27,7 @@ This repository is a part of CSI-248 at Renton Technical College.
     - RollResult (number)
 11. Here's an example of how the app might look:
 
-![RTC Logo](Images/Screenshot 2024-09-20 104408.png)
+![RTC Logo](Images/Example.png)
 
 
 12. Implement useState in the DiceControl component to manage the number of sides.
