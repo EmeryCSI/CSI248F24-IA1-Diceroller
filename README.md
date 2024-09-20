@@ -1,36 +1,46 @@
 # Renton Technical College CSI-248
 
-<br />
-
-![Alt text](Images/logo.jpg)
+![RTC Logo](Images/logo.jpg)
 
 This repository is a part of CSI-248 at Renton Technical College.
 
-## Independent Activity 1 - Components and props
+## Independent Activity 1 - Components, Props, and useState
 
 1. Clone the repository to your local machine. (Do not use OneDrive for assignments in this course!)
 2. Make note of the folder where you cloned the repository.
-3. After you have cloned this repository navigate to your local repository
-4. Create a new expo application in your local repository called resume-app
+3. After you have cloned this repository, navigate to your local repository.
+4. Create a new Expo application in your local repository called `dice-roller-app`.
+5. Create a Dice Roller app using React Native components.
+6. Each section of the app should be a separate component with the data passed to it from App.js via props. Points will be deducted if props are not used to pass data between App.js and the components.
+7. The app will have the following components:
+   - Header (with app title)
+   - DiceControl (to select number of sides)
+   - RollButton (to trigger the dice roll)
+   - ResultDisplay (to show the result of the roll)
+8. Use useState in the App component to manage the dice sides and roll result.
+9. The app should allow users to:
+   - Select the number of sides on the dice (e.g., 6, 8, 20)
+   - Roll the dice
+   - See the result of the roll
+10. The state should have the following properties:
+    - DiceSides (number)
+    - RollResult (number)
+11. Here's an example of how the app might look:
 
-5. Create a resume using React components.
-6. Each section of the resume should be a seperate component with the data passed to it from App.js via PROPS, points will be deducted of props are not used to pass data between App.js and the components.
-7. The resume will have the following sections:
-8. Heading with Name and Title
-9. Contact Information
-10. Summary
-11. Skills
-12. Experience
-13. Education
-14. Here is an example. You may choose any information to list.
+![image](https://github.com/user-attachments/assets/3624f5ee-f4f2-48aa-8744-642ff73392ae)
 
-![Alt text](Images/1-19.png)
 
-15. When it is completed:
-16. Type `git add .` to stage all updated files.
-17. Type `git commit -m "Indepdendent Activity 1 Complete"`.
-18. Type `git push`.
+12. Implement useState in the DiceControl component to manage the number of sides.
+13. Use useState in the ResultDisplay component to show the roll result.
+14. When it is completed:
+    - Type `git add .` to stage all updated files.
+    - Type `git commit -m "Independent Activity 1 Complete"`.
+    - Type `git push`.
 
-If you have any questions about this assignment please reach out to myself or our TA for this course.
-
+If you have any questions about this assignment, please reach out to myself or our TA for this course.
 Feel free to message your instructor or the TA on Canvas if you have any questions.
+
+Extra Credit:
+- Add dice face images for a standard 6-sided die.
+- Implement a simple animation when the dice is rolled.
+- Allow the user to roll multiple dice at once.
