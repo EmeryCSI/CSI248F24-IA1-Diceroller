@@ -40,7 +40,3 @@ This repository is a part of CSI-248 at Renton Technical College.
 If you have any questions about this assignment, please reach out to myself or our TA for this course.
 Feel free to message your instructor or the TA on Canvas if you have any questions.
 
-Extra Credit:
-- Add dice face images for a standard 6-sided die.
-- Implement a simple animation when the dice is rolled.
-- Allow the user to roll multiple dice at once.
